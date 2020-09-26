@@ -1,13 +1,112 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+#logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90vw;
+  animation: fill 0.6s ease forwards 5.3s;
+}
+#logo path:nth-child(1) {
+  stroke-dasharray: 1007.7213745117188;
+  stroke-dashoffset: 1007.7213745117188;
+  animation: line-anim 2s ease forwards;
+}
+
+#logo path:nth-child(2) {
+  stroke-dasharray: 370.1744384765625;
+  stroke-dashoffset: 370.1744384765625;
+  animation: line-anim 2s ease forwards 0.3s;
+}
+
+#logo path:nth-child(3) {
+  stroke-dasharray: 322.5216064453125;
+  stroke-dashoffset: 322.5216064453125;
+  animation: line-anim 2s ease forwards 0.6s;
+}
+
+#logo path:nth-child(4) {
+  stroke-dasharray: 393.2339782714844;
+  stroke-dashoffset: 393.2339782714844;
+  animation: line-anim 2s ease forwards 0.9s;
+}
+
+#logo path:nth-child(5) {
+  stroke-dasharray: 491.7581481933594;
+  stroke-dashoffset: 491.7581481933594;
+  animation: line-anim 2s ease forwards 0.12s;
+}
+
+#logo path:nth-child(6) {
+  stroke-dasharray: 737.6006469726562;
+  stroke-dashoffset: 737.6006469726562;
+  animation: line-anim 2s ease forwards 0.15s;
+}
+
+#logo path:nth-child(7) {
+  stroke-dasharray: 460.0328674316406;
+  stroke-dashoffset: 460.0328674316406;
+  animation: line-anim 2s ease forwards 1s;
+}
+
+#logo path:nth-child(8) {
+  stroke-dasharray: 573.7779541015625;
+  stroke-dashoffset: 573.7779541015625;
+  animation: line-anim 2s ease forwards 2s;
+}
+
+#logo path:nth-child(9) {
+  stroke-dasharray: 350.5067138671875;
+  stroke-dashoffset: 350.5067138671875;
+  animation: line-anim 2s ease forwards 3s;
+}
+
+#logo path:nth-child(10) {
+  stroke-dasharray: 499.12957763671875;
+  stroke-dashoffset: 499.12957763671875;
+  animation: line-anim 2s ease forwards 4s;
+}
+
+p {
+  text-align: center;
+  color: white;
+}
+@keyframes bganimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes line-anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fill {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: white;
+  }
 }
