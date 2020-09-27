@@ -111,7 +111,7 @@ body {
   .container2,
   .contain,
   .heder {
-    display: none !important;
+    display: none;
     visibility: hidden;
   }
 
@@ -150,13 +150,6 @@ body {
 
   #texts3 {
     display: none;
-  }
-
-  .heder {
-    display: none;
-
-    position: sticky;
-    color: whitesmoke;
   }
 }
 
