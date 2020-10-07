@@ -731,7 +731,7 @@ carousel-cell {
     padding: 2vh;
     display: flex !important;
 
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: row;
   }
   #pic {
