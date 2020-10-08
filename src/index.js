@@ -45,6 +45,54 @@ document.getElementById("html1").addEventListener("click", () => {
   // eslint-disable-next-line
   document.getElementById("myDiv3").classList.remove("shows");
 
+  // removes react box on click
+  document.getElementById("box4").classList.remove("tbox4");
+  // eslint-disable-next-line
+  document.getElementById("myDiv4").classList.remove("shows");
+
+  document.getElementById("cssbg").classList.remove("blue");
+  document.getElementById("cssbg1").classList.remove("blue");
+  document.getElementById("cssnum1").classList.remove("white");
+  document.getElementById("cssnum2").classList.remove("white");
+  document.getElementById("cssnum3").classList.remove("white");
+  document.getElementById("cssnum4").classList.remove("white");
+
+  // removes javascript active color on click
+
+  document.getElementById("jsbg").classList.remove("yellow");
+  document.getElementById("jstext").classList.remove("black");
+  document.getElementById("jstext1").classList.remove("black");
+
+  // removes  react active color on click
+  // removes react box on click
+
+  document.getElementById("rbg1").classList.remove("white");
+  document.getElementById("rbg3").classList.remove("white");
+  document.getElementById("rbg4").classList.remove("white");
+});
+
+document.getElementById("react1").addEventListener("click", () => {
+  document.getElementById("rbg1").classList.toggle("white");
+  document.getElementById("rbg3").classList.toggle("white");
+  document.getElementById("rbg4").classList.toggle("white");
+  //opens box on click
+  document.getElementById("box4").classList.toggle("tbox4");
+  // eslint-disable-next-line
+  document.getElementById("myDiv4").classList.toggle("shows");
+  //removes css active color on click
+  //opens box on click
+  document.getElementById("box2").classList.remove("tbox2");
+  // eslint-disable-next-line
+  document.getElementById("myDiv2").classList.remove("shows");
+  //opens box on click
+  document.getElementById("box3").classList.remove("tbox3");
+  // eslint-disable-next-line
+  document.getElementById("myDiv3").classList.remove("shows");
+
+  document.getElementById("box1").classList.remove("tbox1");
+  // eslint-disable-next-line
+  document.getElementById("myDiv").classList.remove("shows");
+
   document.getElementById("cssbg").classList.remove("blue");
   document.getElementById("cssbg1").classList.remove("blue");
   document.getElementById("cssnum1").classList.remove("white");
@@ -59,6 +107,9 @@ document.getElementById("html1").addEventListener("click", () => {
   document.getElementById("jstext1").classList.remove("black");
 });
 
+document.getElementById("bat").addEventListener("click", () => {
+  window.open("https://newz-c60cc.web.app/news", "_blank");
+});
 document.getElementById("css1").addEventListener("click", () => {
   document.getElementById("cssbg").classList.toggle("blue");
   document.getElementById("cssbg1").classList.toggle("blue");
@@ -93,6 +144,12 @@ document.getElementById("css1").addEventListener("click", () => {
   document.getElementById("jsbg").classList.remove("yellow");
   document.getElementById("jstext").classList.remove("black");
   document.getElementById("jstext1").classList.remove("black");
+  document.getElementById("box4").classList.remove("tbox4");
+  // eslint-disable-next-line
+  document.getElementById("myDiv4").classList.remove("shows");
+  document.getElementById("rbg1").classList.remove("white");
+  document.getElementById("rbg3").classList.remove("white");
+  document.getElementById("rbg4").classList.remove("white");
 });
 
 document.getElementById("js1").addEventListener("click", () => {
@@ -112,6 +169,12 @@ document.getElementById("js1").addEventListener("click", () => {
   document.getElementById("box1").classList.remove("tbox1");
   // eslint-disable-next-line
   document.getElementById("myDiv").classList.remove("shows");
+  document.getElementById("box4").classList.remove("tbox4");
+  // eslint-disable-next-line
+  document.getElementById("myDiv4").classList.remove("shows");
+  document.getElementById("rbg1").classList.remove("white");
+  document.getElementById("rbg3").classList.remove("white");
+  document.getElementById("rbg4").classList.remove("white");
 
   document.getElementById("bgfill").classList.remove("orange");
   document.getElementById("bgfill1").classList.remove("orange");

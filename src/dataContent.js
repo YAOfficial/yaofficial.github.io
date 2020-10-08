@@ -11,13 +11,18 @@ function DataContent(props) {
         <div id="butbois1">
           <button
             id="bat"
-            onclick="window.location.href='#'"
+            onclick="window.location.href='https://newz-c60cc.web.app/news'"
             className="buta"
             type="button"
           >
             <small className="bute"> View App </small>
           </button>
-          <button id="bat" className="buta" type="button">
+          <button
+            id="bat"
+            className="buta"
+            onclick="window.open(https://github.com/YAOfficial/Newzy,'popUpWindow','height=400,width=600,left=10,top=10,,scrollbars=yes,menubar=no'); return false;"
+            type="button"
+          >
             <small className="bute">View Code</small>
           </button>
         </div>
