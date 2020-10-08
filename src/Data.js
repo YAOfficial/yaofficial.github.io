@@ -3,10 +3,18 @@ const toData = [
   {
     class: "content0",
 
-    src: <img src={require("./react-seeklogo.com.svg")} />,
+    src: <img id="imglogo" src={require("./sw.png")} />,
     text1: "Forum/News app",
-    text2:
-      "Built a news app following the  https://www.solidsail.com/courses/hacker-news tutorial ",
+    text2: (
+      <a
+        href="https://www.solidsail.com/courses/hacker-news"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Built a news app following the
+        https://www.solidsail.com/courses/hacker-news tutorial
+      </a>
+    ),
   },
 
   {

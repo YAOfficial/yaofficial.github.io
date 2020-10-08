@@ -9,22 +9,20 @@ function DataContent(props) {
         <p id="p4">{props.item.text2}</p>
 
         <div id="butbois1">
-          <button
-            id="bat"
-            onclick="window.location.href='https://newz-c60cc.web.app/news'"
-            className="buta"
-            type="button"
+          <a href="https://newz-c60cc.web.app/news">
+            <button id="bat" className="buta" type="button">
+              <small className="bute"> View App </small>
+            </button>
+          </a>
+          <a
+            href="https://github.com/YAOfficial/Newzy"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <small className="bute"> View App </small>
-          </button>
-          <button
-            id="bat"
-            className="buta"
-            onclick="window.open(https://github.com/YAOfficial/Newzy,'popUpWindow','height=400,width=600,left=10,top=10,,scrollbars=yes,menubar=no'); return false;"
-            type="button"
-          >
-            <small className="bute">View Code</small>
-          </button>
+            <button id="bat" className="buta" type="button">
+              <small className="bute">View Code</small>
+            </button>
+          </a>
         </div>
       </div>
     </div>

@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-
+  word-break: break-word;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -253,6 +253,36 @@ body {
   font-size: 1vw;
 }
 
+a:link {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#imglogo {
+  width: 100%;
+  max-width: 20vw;
+  margin: auto;
+}
+
+a:visited {
+  color: rgb(118, 126, 167);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(0, 85, 255, 0.549);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(255, 218, 9);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 #texts1,
 #texts2,
 #texts3 {
@@ -371,7 +401,7 @@ a {
   font-family: "Hammersmith One", sans-serif;
   text-align: center;
   color: rgb(128, 151, 173);
-
+  word-break: break-word;
   font-weight: 400;
 }
 #p90,
@@ -588,6 +618,7 @@ carousel-cell {
   #p91 {
     font-size: 0.3em;
     display: flex;
+    word-break: break-word;
     flex-direction: column;
   }
   #p99 {
@@ -641,6 +672,7 @@ carousel-cell {
     align-self: center;
     margin: auto;
     text-align: center;
+    word-break: break-word;
     padding-left: 1vw;
     align-items: center;
   }
@@ -690,6 +722,7 @@ carousel-cell {
     transition-duration: 1.4s;
     border-radius: 4vw;
     font-size: 2em;
+    cursor: pointer;
     font-weight: 700;
     color: rgb(255, 255, 255);
     margin-bottom: 2vh;
@@ -717,6 +750,7 @@ carousel-cell {
   }
   #text00 {
     align-self: center;
+    word-break: break-word;
   }
   .content0 {
     border-top-left-radius: 2vw;
