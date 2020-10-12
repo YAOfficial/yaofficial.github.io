@@ -41,12 +41,6 @@ let mn = gsap.timeline({
     end: "+=400", // end after scrolling 500px beyond the start
     markers: true,
     scrub: 1, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
-    snap: {
-      snapTo: "labels", // snap to the closest label in the timeline
-      duration: { min: 0.2, max: 0.5 }, // the snap animation should be at least 0.2 seconds, but no more than 3 seconds (determined by velocity)
-      delay: 0.2, // wait 0.2 seconds from the last scroll event before doing the snapping
-      ease: "power1.inOut", // the ease of the snap animation ("power3" by default)
-    },
   },
 });
 mn.addLabel("start", { scale: 1 })
@@ -63,12 +57,6 @@ let tl = gsap.timeline({
     end: "+=300", // end after scrolling 500px beyond the start
     markers: true,
     scrub: 1, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
-    snap: {
-      snapTo: "labels", // snap to the closest label in the timeline
-      duration: { min: 0.2, max: 0.5 }, // the snap animation should be at least 0.2 seconds, but no more than 3 seconds (determined by velocity)
-      delay: 0.2, // wait 0.2 seconds from the last scroll event before doing the snapping
-      ease: "power1.inOut", // the ease of the snap animation ("power3" by default)
-    },
   },
 });
 
@@ -88,10 +76,10 @@ tl.addLabel("start", { scale: 0 })
 let ol = gsap.timeline({
   // yes, we can add it to an entire timeline!
   scrollTrigger: {
-    trigger: ".tags",
+    trigger: ".content0",
     pin: false, // pin the trigger element while active
-    start: "bottom center", // when the top of the trigger hits the top of the viewport
-    end: "+=700", // end after scrolling 500px beyond the start
+    start: "top center", // when the top of the trigger hits the top of the viewport
+    end: "+=350", // end after scrolling 500px beyond the start
     markers: true,
     scrub: 1, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
   },
@@ -99,4 +87,6 @@ let ol = gsap.timeline({
 
 ol.addLabel("great", { scale: 0 })
   // eslint-disable-next-line no-restricted-globals
-  .from("#container", { x: innerWidth * -1 });
+  .from(".content0", { x: innerWidth * -1 })
+  // eslint-disable-next-line no-restricted-globals
+  .from("#text00", { x: innerWidth * -1 }, "-=1");
