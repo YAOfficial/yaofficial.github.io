@@ -15,6 +15,7 @@ const toData = [
         https://www.solidsail.com/courses/hacker-news tutorial
       </a>
     ),
+    text3: "Developed with Html5, Css3 , Js, Firebase , Ionic and React",
   },
 
   {

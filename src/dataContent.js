@@ -7,7 +7,7 @@ function DataContent(props) {
       <div id="text00">
         <h2 id="p6">{props.item.text1}</h2>
         <p id="p4">{props.item.text2}</p>
-
+        <p id="91">{props.item.text3}</p>
         <div id="butbois1">
           <a href="https://newz-c60cc.web.app/news">
             <button id="bat" className="buta" type="button">

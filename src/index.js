@@ -4,6 +4,10 @@ import ReactDom from "react-dom";
 import * as serviceWorker from "./serviceWorker";
 import DataContent from "./dataContent";
 import toData from "./Data";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+import { getAllByDisplayValue } from "@testing-library/react";
 
 class Appo extends React.Component {
   constructor() {
@@ -23,176 +27,38 @@ class Appo extends React.Component {
 }
 ReactDom.render(<Appo />, document.getElementById("container1"));
 
-document.getElementById("html1").addEventListener("click", () => {
-  document.getElementById("bgfill").classList.toggle("orange");
-  document.getElementById("bgfill1").classList.toggle("orange");
-  document.getElementById("numberfill").classList.toggle("white");
-  document.getElementById("numberfill1").classList.toggle("white");
-  document.getElementById("numberfill3").classList.toggle("white");
-  document.getElementById("numberfill4").classList.toggle("white");
-
-  //opens box on click
-  document.getElementById("box1").classList.toggle("tbox1");
-  // eslint-disable-next-line
-  document.getElementById("myDiv").classList.toggle("shows");
-  //removes css active color on click
-  //opens box on click
-  document.getElementById("box2").classList.remove("tbox2");
-  // eslint-disable-next-line
-  document.getElementById("myDiv2").classList.remove("shows");
-  //opens box on click
-  document.getElementById("box3").classList.remove("tbox3");
-  // eslint-disable-next-line
-  document.getElementById("myDiv3").classList.remove("shows");
-
-  // removes react box on click
-  document.getElementById("box4").classList.remove("tbox4");
-  // eslint-disable-next-line
-  document.getElementById("myDiv4").classList.remove("shows");
-
-  document.getElementById("cssbg").classList.remove("blue");
-  document.getElementById("cssbg1").classList.remove("blue");
-  document.getElementById("cssnum1").classList.remove("white");
-  document.getElementById("cssnum2").classList.remove("white");
-  document.getElementById("cssnum3").classList.remove("white");
-  document.getElementById("cssnum4").classList.remove("white");
-
-  // removes javascript active color on click
-
-  document.getElementById("jsbg").classList.remove("yellow");
-  document.getElementById("jstext").classList.remove("black");
-  document.getElementById("jstext1").classList.remove("black");
-
-  // removes  react active color on click
-  // removes react box on click
-
-  document.getElementById("rbg1").classList.remove("white");
-  document.getElementById("rbg3").classList.remove("white");
-  document.getElementById("rbg4").classList.remove("white");
-});
-
-document.getElementById("react1").addEventListener("click", () => {
-  document.getElementById("rbg1").classList.toggle("white");
-  document.getElementById("rbg3").classList.toggle("white");
-  document.getElementById("rbg4").classList.toggle("white");
-  //opens box on click
-  document.getElementById("box4").classList.toggle("tbox4");
-  // eslint-disable-next-line
-  document.getElementById("myDiv4").classList.toggle("shows");
-  //removes css active color on click
-  //opens box on click
-  document.getElementById("box2").classList.remove("tbox2");
-  // eslint-disable-next-line
-  document.getElementById("myDiv2").classList.remove("shows");
-  //opens box on click
-  document.getElementById("box3").classList.remove("tbox3");
-  // eslint-disable-next-line
-  document.getElementById("myDiv3").classList.remove("shows");
-
-  document.getElementById("box1").classList.remove("tbox1");
-  // eslint-disable-next-line
-  document.getElementById("myDiv").classList.remove("shows");
-
-  document.getElementById("cssbg").classList.remove("blue");
-  document.getElementById("cssbg1").classList.remove("blue");
-  document.getElementById("cssnum1").classList.remove("white");
-  document.getElementById("cssnum2").classList.remove("white");
-  document.getElementById("cssnum3").classList.remove("white");
-  document.getElementById("cssnum4").classList.remove("white");
-
-  // removes javascript active color on click
-
-  document.getElementById("jsbg").classList.remove("yellow");
-  document.getElementById("jstext").classList.remove("black");
-  document.getElementById("jstext1").classList.remove("black");
-});
-
-document.getElementById("bat").addEventListener("click", () => {
-  window.open("https://newz-c60cc.web.app/news", "_blank");
-});
-document.getElementById("css1").addEventListener("click", () => {
-  document.getElementById("cssbg").classList.toggle("blue");
-  document.getElementById("cssbg1").classList.toggle("blue");
-  document.getElementById("cssnum1").classList.toggle("white");
-  document.getElementById("cssnum2").classList.toggle("white");
-  document.getElementById("cssnum3").classList.toggle("white");
-  document.getElementById("cssnum4").classList.toggle("white");
-
-  //opens box on click
-  document.getElementById("box2").classList.toggle("tbox2");
-  // eslint-disable-next-line
-  document.getElementById("myDiv2").classList.toggle("shows");
-  //opens box on click
-  document.getElementById("box1").classList.remove("tbox1");
-  // eslint-disable-next-line
-  document.getElementById("myDiv").classList.remove("shows");
-  //opens box on click
-  //opens box on click
-  document.getElementById("box3").classList.remove("tbox3");
-  // eslint-disable-next-line
-  document.getElementById("myDiv3").classList.remove("shows");
-
-  // removes html active color on click
-  document.getElementById("bgfill").classList.remove("orange");
-  document.getElementById("bgfill1").classList.remove("orange");
-  document.getElementById("numberfill").classList.remove("white");
-  document.getElementById("numberfill1").classList.remove("white");
-  document.getElementById("numberfill3").classList.remove("white");
-  document.getElementById("numberfill4").classList.remove("white");
-
-  // removes javascript active color on click
-  document.getElementById("jsbg").classList.remove("yellow");
-  document.getElementById("jstext").classList.remove("black");
-  document.getElementById("jstext1").classList.remove("black");
-  document.getElementById("box4").classList.remove("tbox4");
-  // eslint-disable-next-line
-  document.getElementById("myDiv4").classList.remove("shows");
-  document.getElementById("rbg1").classList.remove("white");
-  document.getElementById("rbg3").classList.remove("white");
-  document.getElementById("rbg4").classList.remove("white");
-});
-
-document.getElementById("js1").addEventListener("click", () => {
-  document.getElementById("jsbg").classList.toggle("yellow");
-  document.getElementById("jstext").classList.toggle("black");
-  document.getElementById("jstext1").classList.toggle("black");
-
-  //opens box on click
-  document.getElementById("box3").classList.toggle("tbox3");
-  // eslint-disable-next-line
-  document.getElementById("myDiv3").classList.toggle("shows");
-  //opens box on click
-  document.getElementById("box2").classList.remove("tbox2");
-  // eslint-disable-next-line
-  document.getElementById("myDiv2").classList.remove("shows");
-  //opens box on click
-  document.getElementById("box1").classList.remove("tbox1");
-  // eslint-disable-next-line
-  document.getElementById("myDiv").classList.remove("shows");
-  document.getElementById("box4").classList.remove("tbox4");
-  // eslint-disable-next-line
-  document.getElementById("myDiv4").classList.remove("shows");
-  document.getElementById("rbg1").classList.remove("white");
-  document.getElementById("rbg3").classList.remove("white");
-  document.getElementById("rbg4").classList.remove("white");
-
-  document.getElementById("bgfill").classList.remove("orange");
-  document.getElementById("bgfill1").classList.remove("orange");
-  document.getElementById("numberfill").classList.remove("white");
-  document.getElementById("numberfill1").classList.remove("white");
-  document.getElementById("numberfill3").classList.remove("white");
-  document.getElementById("numberfill4").classList.remove("white");
-
-  //removes css active color on click
-
-  document.getElementById("cssbg").classList.remove("blue");
-  document.getElementById("cssbg1").classList.remove("blue");
-  document.getElementById("cssnum1").classList.remove("white");
-  document.getElementById("cssnum2").classList.remove("white");
-  document.getElementById("cssnum3").classList.remove("white");
-  document.getElementById("cssnum4").classList.remove("white");
-});
-
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+gsap.registerPlugin(ScrollTrigger);
+
+let tl = gsap.timeline({
+  // yes, we can add it to an entire timeline!
+  scrollTrigger: {
+    trigger: "#MainContent",
+    pin: false, // pin the trigger element while active
+    start: "top center", // when the top of the trigger hits the top of the viewport
+    end: "+=300", // end after scrolling 500px beyond the start
+    markers: true,
+    scrub: 1, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
+    snap: {
+      snapTo: "labels", // snap to the closest label in the timeline
+      duration: { min: 0.2, max: 0.5 }, // the snap animation should be at least 0.2 seconds, but no more than 3 seconds (determined by velocity)
+      delay: 0.2, // wait 0.2 seconds from the last scroll event before doing the snapping
+      ease: "power1.inOut", // the ease of the snap animation ("power3" by default)
+    },
+  },
+});
+
+tl.addLabel("start", { scale: 0 })
+  // eslint-disable-next-line no-restricted-globals
+  .from(".css", { x: innerWidth * -1 })
+
+  .addLabel("color")
+  // eslint-disable-next-line no-restricted-globals
+  .from(".react", { x: innerWidth * -1 })
+  .addLabel("ao")
+  // eslint-disable-next-line no-restricted-globals
+  .from(".html", { x: innerWidth * -1 })
+  // eslint-disable-next-line no-restricted-globals
+  .from(".javascript", { x: innerWidth * -1 });
