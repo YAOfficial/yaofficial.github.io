@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.e9927b4f.chunk.css",
-    "main.js": "/static/js/main.8e63d3ed.chunk.js",
-    "main.js.map": "/static/js/main.8e63d3ed.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
-    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
-    "static/js/2.2073934b.chunk.js": "/static/js/2.2073934b.chunk.js",
-    "static/js/2.2073934b.chunk.js.map": "/static/js/2.2073934b.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.8f246787532c52b498a854a670b69071.js": "/precache-manifest.8f246787532c52b498a854a670b69071.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.e9927b4f.chunk.css.map": "/static/css/main.e9927b4f.chunk.css.map",
-    "static/js/2.2073934b.chunk.js.LICENSE.txt": "/static/js/2.2073934b.chunk.js.LICENSE.txt",
-    "static/media/react-seeklogo.com.svg": "/static/media/react-seeklogo.com.ee61ca49.svg",
-    "static/media/sw.png": "/static/media/sw.c4c965d2.png"
+    "main.css": "/yaofficial-github.io/static/css/main.e9927b4f.chunk.css",
+    "main.js": "/yaofficial-github.io/static/js/main.2b190825.chunk.js",
+    "main.js.map": "/yaofficial-github.io/static/js/main.2b190825.chunk.js.map",
+    "runtime-main.js": "/yaofficial-github.io/static/js/runtime-main.5c06b4e8.js",
+    "runtime-main.js.map": "/yaofficial-github.io/static/js/runtime-main.5c06b4e8.js.map",
+    "static/js/2.e3307cea.chunk.js": "/yaofficial-github.io/static/js/2.e3307cea.chunk.js",
+    "static/js/2.e3307cea.chunk.js.map": "/yaofficial-github.io/static/js/2.e3307cea.chunk.js.map",
+    "index.html": "/yaofficial-github.io/index.html",
+    "precache-manifest.a09eae48df2d7593d139b71467892f3e.js": "/yaofficial-github.io/precache-manifest.a09eae48df2d7593d139b71467892f3e.js",
+    "service-worker.js": "/yaofficial-github.io/service-worker.js",
+    "static/css/main.e9927b4f.chunk.css.map": "/yaofficial-github.io/static/css/main.e9927b4f.chunk.css.map",
+    "static/js/2.e3307cea.chunk.js.LICENSE.txt": "/yaofficial-github.io/static/js/2.e3307cea.chunk.js.LICENSE.txt",
+    "static/media/react-seeklogo.com.svg": "/yaofficial-github.io/static/media/react-seeklogo.com.ee61ca49.svg",
+    "static/media/sw.png": "/yaofficial-github.io/static/media/sw.c4c965d2.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.19ccc7f6.js",
-    "static/js/2.2073934b.chunk.js",
+    "static/js/runtime-main.5c06b4e8.js",
+    "static/js/2.e3307cea.chunk.js",
     "static/css/main.e9927b4f.chunk.css",
-    "static/js/main.8e63d3ed.chunk.js"
+    "static/js/main.2b190825.chunk.js"
   ]
 }
