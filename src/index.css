@@ -256,7 +256,8 @@ a:link {
 #imglogo {
   width: 100%;
   max-width: 20vw;
-  margin: auto;
+  display: flex;
+  align-self: center;
 }
 
 a:visited {
@@ -522,7 +523,7 @@ a {
 }
 
 .p2 {
-  font-weight: 200;
+  font-weight: 700;
 
   animation-fill-mode: forwards;
 
@@ -945,8 +946,6 @@ carousel-cell {
 #logosi {
   display: flex;
   justify-content: space-evenly;
-
-  flex-wrap: wrap;
 }
 
 #containesr12 {
@@ -970,7 +969,7 @@ carousel-cell {
 .bute {
   font-size: 0.6em;
   margin: auto;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
 }
 
 code {

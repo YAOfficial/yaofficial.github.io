@@ -16,10 +16,12 @@ const toData = [
       </a>
     ),
     text3: "Developed with Html5, Css3 , Js, Firebase , Ionic and React",
+    link1: "https://github.com/YAOfficial/Newzy",
+    link2: "https://newz-c60cc.web.app/news",
   },
 
   {
-    class: "content0",
+    class: "content3",
     src: <img src={require("./react-seeklogo.com.svg")} />,
     text1: "Lorem Ipsum",
     text2: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nes",

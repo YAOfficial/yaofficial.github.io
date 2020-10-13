@@ -32,35 +32,39 @@ ReactDom.render(<Appo />, document.getElementById("container1"));
 serviceWorker.unregister();
 gsap.registerPlugin(ScrollTrigger);
 
-let mn = gsap.timeline({
+let firstAnim = gsap.timeline({
   // yes, we can add it to an entire timeline!
   scrollTrigger: {
     trigger: "#MainContent",
     pin: false, // pin the trigger element while active
     start: "top bottom", // when the top of the trigger hits the top of the viewport
-    end: "+=400", // end after scrolling 500px beyond the start
+
     markers: true,
+    end: "+=100",
     scrub: 1, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
   },
 });
-mn.addLabel("start", { scale: 1 })
+firstAnim
+  .addLabel("start", { scale: 1 })
 
   // eslint-disable-next-line no-restricted-globals
   .from("#info", { y: innerWidth * 1 });
 
-let tl = gsap.timeline({
+let secondAnim = gsap.timeline({
   // yes, we can add it to an entire timeline!
   scrollTrigger: {
+    end: "+=100",
     trigger: "#MainContent",
     pin: false, // pin the trigger element while active
     start: "top center", // when the top of the trigger hits the top of the viewport
-    end: "+=300", // end after scrolling 500px beyond the start
+
     markers: true,
-    scrub: 1, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
+    scrub: 3, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
   },
 });
 
-tl.addLabel("start", { scale: 0 })
+secondAnim
+  .addLabel("start", { scale: 0 })
   // eslint-disable-next-line no-restricted-globals
   .from(".css", { x: innerWidth * -1 })
 
@@ -73,20 +77,94 @@ tl.addLabel("start", { scale: 0 })
   // eslint-disable-next-line no-restricted-globals
   .from(".javascript", { x: innerWidth * -1 });
 
-let ol = gsap.timeline({
+let thirdAnim = gsap.timeline({
   // yes, we can add it to an entire timeline!
   scrollTrigger: {
     trigger: ".content0",
     pin: false, // pin the trigger element while active
     start: "top center", // when the top of the trigger hits the top of the viewport
-    end: "+=350", // end after scrolling 500px beyond the start
+
     markers: true,
-    scrub: 1, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
+    end: "+=100",
+    scrub: 3, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
   },
 });
 
-ol.addLabel("great", { scale: 0 })
+thirdAnim
+  .addLabel("great", { scale: 0 })
   // eslint-disable-next-line no-restricted-globals
-  .from(".content0", { x: innerWidth * -1 })
+  .from(".content0", { x: innerWidth * -1 });
+
+// eslint-disable-next-line no-restricted-globals
+
+let fourthAnim = gsap.timeline({
+  // yes, we can add it to an entire timeline!
+  scrollTrigger: {
+    trigger: ".content3",
+    pin: false, // pin the trigger element while active
+    start: "top center", // when the top of the trigger hits the top of the viewport
+
+    markers: true,
+    end: "+=100",
+    scrub: 3, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
+  },
+});
+
+fourthAnim
+  .addLabel("greatpo", { scale: 1 })
   // eslint-disable-next-line no-restricted-globals
-  .from("#text00", { x: innerWidth * -1 }, "-=1");
+  .from(".content3", { x: innerWidth * 1 });
+
+let fifthAnim = gsap.timeline({
+  // yes, we can add it to an entire timeline!
+  scrollTrigger: {
+    trigger: "#MainContent",
+    pin: false, // pin the trigger element while active
+    start: "top center", // when the top of the trigger hits the top of the viewport
+    duration: 1,
+    scrub: 3,
+    markers: true,
+    end: "+=50",
+  },
+});
+
+fifthAnim
+  .addLabel("greatOS", { scale: 1 })
+  // eslint-disable-next-line no-restricted-globals
+  .to("#logo", { x: innerWidth * 1, opacity: 0, display: "none" });
+
+let sixthAnim = gsap.timeline({
+  // yes, we can add it to an entire timeline!
+  scrollTrigger: {
+    trigger: "#MainContent",
+    pin: false, // pin the trigger element while active
+    start: "top center", // when the top of the trigger hits the top of the viewport
+    end: "+=50", // end after scrolling 500px beyond the start
+    markers: true,
+
+    duration: 2,
+    scrub: 3, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
+  },
+});
+sixthAnim
+  .addLabel("greatom", { scale: 0 })
+  // eslint-disable-next-line no-restricted-globals
+  .to(".header", { x: innerWidth * -1, opacity: 0, display: "none" });
+
+let seventhAnim = gsap.timeline({
+  // yes, we can add it to an entire timeline!
+  scrollTrigger: {
+    trigger: "#MainContent",
+    pin: false, // pin the trigger element while active
+    start: "bottom bottom", // when the top of the trigger hits the top of the viewport
+    end: "+=10", // end after scrolling 500px beyond the start
+    markers: true,
+
+    duration: 2,
+    scrub: 3, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
+  },
+});
+seventhAnim
+  .addLabel("greatpo", { scale: 0 })
+  // eslint-disable-next-line no-restricted-globals
+  .from("#container2", { x: innerWidth * -1, opacity: 0, display: "none" });
