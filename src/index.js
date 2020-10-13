@@ -35,9 +35,9 @@ gsap.registerPlugin(ScrollTrigger);
 let firstAnim = gsap.timeline({
   // yes, we can add it to an entire timeline!
   scrollTrigger: {
-    trigger: "#MainContent",
+    trigger: ".header",
     pin: false, // pin the trigger element while active
-    start: "top bottom", // when the top of the trigger hits the top of the viewport
+    start: "bottom center", // when the top of the trigger hits the top of the viewport
 
     end: "+=100",
     scrub: 1, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
@@ -47,7 +47,7 @@ firstAnim
   .addLabel("start", { scale: 1 })
 
   // eslint-disable-next-line no-restricted-globals
-  .from("#info", { x: innerWidth * 1 });
+  .from("#info", { y: innerWidth * 1 });
 
 let secondAnim = gsap.timeline({
   // yes, we can add it to an entire timeline!
@@ -97,7 +97,7 @@ thirdAnim
 let fourthAnim = gsap.timeline({
   // yes, we can add it to an entire timeline!
   scrollTrigger: {
-    trigger: ".content0",
+    trigger: ".content3",
     pin: false, // pin the trigger element while active
     start: "top center", // when the top of the trigger hits the top of the viewport
 
@@ -127,7 +127,7 @@ let fifthAnim = gsap.timeline({
 fifthAnim
   .addLabel("greatOS", { scale: 1 })
   // eslint-disable-next-line no-restricted-globals
-  .to("#logo", { x: innerWidth * 1, opacity: 0, display: "none" });
+  .to("#logo", { x: innerWidth * 1, opacity: 0 });
 
 let sixthAnim = gsap.timeline({
   // yes, we can add it to an entire timeline!
@@ -144,7 +144,7 @@ let sixthAnim = gsap.timeline({
 sixthAnim
   .addLabel("greatom", { scale: 0 })
   // eslint-disable-next-line no-restricted-globals
-  .to(".header", { x: innerWidth * -1, opacity: 0, display: "none" });
+  .to(".header", { x: innerWidth * -1, opacity: 0 });
 
 let seventhAnim = gsap.timeline({
   // yes, we can add it to an entire timeline!
@@ -161,4 +161,4 @@ let seventhAnim = gsap.timeline({
 seventhAnim
   .addLabel("greatpo", { scale: 0 })
   // eslint-disable-next-line no-restricted-globals
-  .from("#container2", { x: innerWidth * -1, display: "none" });
+  .from("#container2", { x: innerWidth * -1 });
