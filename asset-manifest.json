@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/yaofficial-github-io/static/css/main.e9927b4f.chunk.css",
-    "main.js": "/yaofficial-github-io/static/js/main.733a0ca9.chunk.js",
-    "main.js.map": "/yaofficial-github-io/static/js/main.733a0ca9.chunk.js.map",
+    "main.js": "/yaofficial-github-io/static/js/main.ada2fb3b.chunk.js",
+    "main.js.map": "/yaofficial-github-io/static/js/main.ada2fb3b.chunk.js.map",
     "runtime-main.js": "/yaofficial-github-io/static/js/runtime-main.980e5a76.js",
     "runtime-main.js.map": "/yaofficial-github-io/static/js/runtime-main.980e5a76.js.map",
     "static/js/2.74f40ad8.chunk.js": "/yaofficial-github-io/static/js/2.74f40ad8.chunk.js",
     "static/js/2.74f40ad8.chunk.js.map": "/yaofficial-github-io/static/js/2.74f40ad8.chunk.js.map",
     "index.html": "/yaofficial-github-io/index.html",
-    "precache-manifest.37f8ef52c31cdcfa245457a22ba666be.js": "/yaofficial-github-io/precache-manifest.37f8ef52c31cdcfa245457a22ba666be.js",
+    "precache-manifest.e6886bc2592241a8aff72271fb901969.js": "/yaofficial-github-io/precache-manifest.e6886bc2592241a8aff72271fb901969.js",
     "service-worker.js": "/yaofficial-github-io/service-worker.js",
     "static/css/main.e9927b4f.chunk.css.map": "/yaofficial-github-io/static/css/main.e9927b4f.chunk.css.map",
     "static/js/2.74f40ad8.chunk.js.LICENSE.txt": "/yaofficial-github-io/static/js/2.74f40ad8.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.980e5a76.js",
     "static/js/2.74f40ad8.chunk.js",
     "static/css/main.e9927b4f.chunk.css",
-    "static/js/main.733a0ca9.chunk.js"
+    "static/js/main.ada2fb3b.chunk.js"
   ]
 }
