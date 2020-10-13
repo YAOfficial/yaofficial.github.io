@@ -32,6 +32,10 @@ ReactDom.render(<Appo />, document.getElementById("container1"));
 serviceWorker.unregister();
 gsap.registerPlugin(ScrollTrigger);
 
+function goto(url) {
+  window.location = url;
+}
+
 let firstAnim = gsap.timeline({
   // yes, we can add it to an entire timeline!
   scrollTrigger: {
