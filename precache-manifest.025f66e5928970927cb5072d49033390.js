@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "22377e83445959ab2f523776d98e4137",
+    "revision": "0d4788b6e002fc969c9241bf046b1519",
     "url": "/yaofficial-github-io/index.html"
   },
   {
-    "revision": "6b85fe0e4ff6ed7c5547",
+    "revision": "f3f449cb82dbf1bfc2da",
     "url": "/yaofficial-github-io/static/css/main.e9927b4f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yaofficial-github-io/static/js/2.74f40ad8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6b85fe0e4ff6ed7c5547",
-    "url": "/yaofficial-github-io/static/js/main.915c8aa7.chunk.js"
+    "revision": "f3f449cb82dbf1bfc2da",
+    "url": "/yaofficial-github-io/static/js/main.b0c7869d.chunk.js"
   },
   {
     "revision": "22c10a6b45a1aabf83dd",
