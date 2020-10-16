@@ -307,12 +307,14 @@ a:active {
   color: white;
   background-image: linear-gradient(
     120deg,
-    rgb(255, 140, 33),
-    #0080ff,
-    #681eca
+    rgb(0, 0, 0),
+    #4d5a66,
+    #4c5168,
+    #4d5a66,
+    rgb(0, 0, 0)
   ) !important;
   background-size: 600%;
-  animation: bganimation 8s infinite;
+  animation: bganimation 28s infinite;
   border: none;
   font-family: "mont", sans-serif;
   font-size: 2vh;
