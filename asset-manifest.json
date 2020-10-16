@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.e9927b4f.chunk.css",
+    "main.css": "/static/css/main.4f80a6ed.chunk.css",
     "main.js": "/static/js/main.fe6f0a8a.chunk.js",
     "main.js.map": "/static/js/main.fe6f0a8a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
@@ -8,9 +8,9 @@
     "static/js/2.2073934b.chunk.js": "/static/js/2.2073934b.chunk.js",
     "static/js/2.2073934b.chunk.js.map": "/static/js/2.2073934b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c81155e35c2894049c7ef1fbdb961d97.js": "/precache-manifest.c81155e35c2894049c7ef1fbdb961d97.js",
+    "precache-manifest.9c118016e2dc8a24620cd8c2f72336b8.js": "/precache-manifest.9c118016e2dc8a24620cd8c2f72336b8.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.e9927b4f.chunk.css.map": "/static/css/main.e9927b4f.chunk.css.map",
+    "static/css/main.4f80a6ed.chunk.css.map": "/static/css/main.4f80a6ed.chunk.css.map",
     "static/js/2.2073934b.chunk.js.LICENSE.txt": "/static/js/2.2073934b.chunk.js.LICENSE.txt",
     "static/media/react-seeklogo.com.svg": "/static/media/react-seeklogo.com.ee61ca49.svg",
     "static/media/sw.png": "/static/media/sw.c4c965d2.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
     "static/js/2.2073934b.chunk.js",
-    "static/css/main.e9927b4f.chunk.css",
+    "static/css/main.4f80a6ed.chunk.css",
     "static/js/main.fe6f0a8a.chunk.js"
   ]
 }
