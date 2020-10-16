@@ -38,8 +38,8 @@ let firstAnim = gsap.timeline({
     trigger: ".header",
     pin: false, // pin the trigger element while active
     start: "bottom center", // when the top of the trigger hits the top of the viewport
-
     end: "+=100",
+    once: true,
     scrub: 1, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
   },
 });
@@ -56,7 +56,7 @@ let secondAnim = gsap.timeline({
     trigger: "#MainContent",
     pin: false, // pin the trigger element while active
     start: "top center", // when the top of the trigger hits the top of the viewport
-
+    once: true,
     scrub: 3, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
   },
 });
@@ -81,7 +81,7 @@ let thirdAnim = gsap.timeline({
     trigger: ".content0",
     pin: false, // pin the trigger element while active
     start: "top center", // when the top of the trigger hits the top of the viewport
-
+    once: true,
     end: "+=100",
     scrub: 3, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
   },
@@ -100,8 +100,8 @@ let fourthAnim = gsap.timeline({
     trigger: ".content3",
     pin: false, // pin the trigger element while active
     start: "top center", // when the top of the trigger hits the top of the viewport
-
-    end: "+=50",
+    once: true,
+    end: "+=100",
     scrub: 3, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
   },
 });
@@ -116,10 +116,9 @@ let fifthAnim = gsap.timeline({
   scrollTrigger: {
     trigger: "#MainContent",
     pin: false, // pin the trigger element while active
-    start: "top center", // when the top of the trigger hits the top of the viewport
+    start: "center bottom", // when the top of the trigger hits the top of the viewport
     duration: 1,
     scrub: 1,
-
     end: "+=50",
   },
 });
@@ -153,7 +152,7 @@ let seventhAnim = gsap.timeline({
     pin: false, // pin the trigger element while active
     start: "bottom bottom", // when the top of the trigger hits the top of the viewport
     end: "+=10", // end after scrolling 500px beyond the start
-
+    once: true,
     duration: 2,
     scrub: 3, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
   },

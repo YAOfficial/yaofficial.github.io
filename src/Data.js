@@ -24,7 +24,8 @@ const toData = [
     class: "content3",
     src: <img src={require("./react-seeklogo.com.svg")} />,
     text1: "Lorem Ipsum",
-    text2: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nes",
+    text2:
+      "Lorem dwdwipsum dolor sit amet consectetur adipisicing elit. Nes dma imam oek",
   },
 ];
 
