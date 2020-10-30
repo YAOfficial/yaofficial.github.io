@@ -11,8 +11,8 @@ const toData = [
         target="_blank"
         rel="noopener noreferrer"
       >
-        Built a news app following the
-        https://www.solidsail.com/courses/hacker-news tutorial
+        Built a news app using html css js react and firebase
+       
       </a>
     ),
     text3: "Developed with Html5, Css3 , Js, Firebase , Ionic and React",

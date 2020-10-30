@@ -7,8 +7,6 @@ import toData from "./Data";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-import { getAllByDisplayValue } from "@testing-library/react";
-
 class Appo extends React.Component {
   constructor() {
     // eslint-disable-next-line
