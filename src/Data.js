@@ -3,29 +3,39 @@ const toData = [
   {
     class: "content0",
 
-    src: <img id="imglogo" src={require("./sw.png")} />,
-    text1: "Forum/News app",
-    text2: (
-      <a
-        href="https://www.solidsail.com/courses/hacker-news"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Built a news app using html css js react and firebase
-       
-      </a>
-    ),
-    text3: "Developed with Html5, Css3 , Js, Firebase , Ionic and React",
-    link1: "https://github.com/YAOfficial/Newzy",
-    link2: "https://newz-c60cc.web.app/news",
+    src: <img id="imglogo" src={require("./stock-earnings.svg")} />,
+    text1: "Stock market web app ",
+    text2: 
+     
+        "Built a stock market app showcasing various forms of data alowing users a vast array of functionality"
+    ,
+    text3: "Developed with Html, Css , Js, Firebase , Ionic and React",
+    link2: "https://github.com/YAOfficial/stocksy",
+    link1: "https://yusuf.is-a.dev/stocksy/",
   },
 
   {
     class: "content3",
-    src: <img src={require("./react-seeklogo.com.svg")} />,
-    text1: "Lorem Ipsum",
+    src: <img src={require("./virus.png")} />,
+    text1: "Covid-19 web app ",
     text2:
-      "Lorem dwdwipsum dolor sit amet consectetur adipisicing elit. Nes dma imam oek",
+      "Built a coronavirus dashboard showcasing various forms of data relevant to coronavrius (covid-19) ",
+    text3: "Developed using Html, Css, js, React, leaflet, gatsby & rechart ",
+    link2: "https://github.com/YAOfficial/covidreport",
+    link1: "https://cov1dreport.netlify.app/",
+  },
+  {
+    class: "content4",
+
+    src: <img id="imglogo" src={require("./sw.png")} />,
+    text1: "Full Stack social media app",
+    text2: 
+     
+        "Built a social media app following solidsails course  alowing users a vast array of functionality"
+    ,
+    text3: "Developed with Html, Css , Js, Firebase , Ionic and React",
+    link2: "https://github.com/YAOfficial/Newzy",
+    link1: "https://newz-c60cc.web.app/news",
   },
 ];
 
